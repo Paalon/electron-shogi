@@ -9,3 +9,4 @@ export * from "./record";
 export * from "./kakinoki";
 export * from "./csa";
 export * from "./detect";
+export * from "./book";
