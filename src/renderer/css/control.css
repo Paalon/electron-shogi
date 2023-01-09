@@ -1,0 +1,51 @@
+button {
+  color: var(--control-button-color);
+  background: linear-gradient(to top, var(--control-button-bg-color) 78%, white 125%);
+  border-color: var(--control-button-border-color);
+  border-style: solid;
+  border-width: 0px 1px 1px 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 100%;
+}
+button:active {
+  border-width: 1px 0px 0px 1px;
+}
+button:disabled {
+  background: linear-gradient(to top, var(--disabled-control-button-bg-color) 78%, white 125%);
+}
+button:hover:enabled {
+  background: linear-gradient(to top, var(--hovered-control-button-bg-color) 78%, white 125%);
+}
+button.close:enabled {
+  background: linear-gradient(to top, var(--close-button-bg-color) 78%, white 125%);
+}
+button.close:hover:enabled {
+  background: linear-gradient(to top, var(--hovered-close-button-bg-color) 78%, white 125%);
+}
+
+button .icon {
+  height: 100%;
+  vertical-align: top;
+}
+
+input {
+  color: var(--text-color);
+  background-color: var(--text-bg-color);
+  border-color: var(--input-border-color);
+  border-style: solid;
+  border-width: 1px;
+  font-size: 0.9em;
+}
+
+select {
+  color: var(--text-color);
+  background-color: var(--text-bg-color);
+  font-size: 0.9em;
+}
+
+textarea {
+  color: var(--text-color);
+  background-color: var(--text-bg-color);
+  font-size: 0.9em;
+}

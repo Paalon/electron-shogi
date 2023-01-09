@@ -1,11 +1,11 @@
-import { CSAGameSummary } from "@/ipc/csa";
+import { CSAGameSummary } from "@/common/csa";
 import {
   CSAGameSetting,
   CSAGameSettingHistory,
   CSAProtocolVersion,
   CSAServerSetting,
-} from "@/settings/csa";
-import { Color } from "@/shogi";
+} from "@/common/settings/csa";
+import { Color } from "@/common/shogi";
 
 export const playerURI = "es://usi/test-engine";
 
@@ -37,6 +37,7 @@ export const csaGameSetting: CSAGameSetting = {
   enableComment: true,
   enableAutoSave: true,
   repeat: 1,
+  autoRelogin: true,
 };
 
 export const emptyCSAGameSettingHistory: CSAGameSettingHistory = {
@@ -46,6 +47,7 @@ export const emptyCSAGameSettingHistory: CSAGameSettingHistory = {
   enableComment: true,
   enableAutoSave: true,
   repeat: 1,
+  autoRelogin: true,
 };
 
 export const singleCSAGameSettingHistory: CSAGameSettingHistory = {
@@ -63,6 +65,7 @@ export const singleCSAGameSettingHistory: CSAGameSettingHistory = {
   enableComment: true,
   enableAutoSave: true,
   repeat: 1,
+  autoRelogin: true,
 };
 
 const initialPosition = `\
